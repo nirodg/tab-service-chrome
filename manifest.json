@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tab Service",
+  "description": "Captures and sends all the active, closed and updates tabs to a REST API",
+  "version": "1.0",
+
+  "background":{
+    "scripts" : ["src/background/js/service.js"],
+    "persistent" : false
+    },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "debugger",
+    "storage",
+    "*://*/*"
+  ],
+
+  "browser_action" :{
+    "default_title" :  "Tab Service"
+  },
+
+  "options_page" : "src/options/options.html"
+
+}

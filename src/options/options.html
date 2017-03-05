@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Tab Service Options</title>
+
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+	<!-- CSS Reset -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+
+	<!-- Milligram -->
+	<link rel="stylesheet" href="css/milligram.min.css">
+
+	<!-- Spark Service Options Style -->
+	<link rel="stylesheet" href="css/options.css">
+
+</head>
+<body class="container">
+
+	<div class="row">
+		<div class="column column-50 column-offset-25">
+			
+				<h1>Tab Service Options</h1>
+
+		
+				<form>
+					<fieldset>
+
+						<div class="option">
+							<label for="server">Server host</label>
+							<input type="text" id="server" placeholder="http://localhost">
+						</div>
+						
+						<div class="option">
+							<label for="port">Port</label>
+							<input type="text" id="port" placeholder="8080">
+						</div>
+
+						<div class="option">
+							<label>Options</label>
+							<input type="checkbox" id="optionDebug" name="optionDebug"> Debug mode <br> 
+						</div>
+
+						
+						
+						<input id="save" type="button" class="button" value="Save" />
+						<input id="reset" type="reset" class="button button-clear" value="Reset values" />
+
+					</fieldset>		
+				</form>
+	
+				<blockquote id="status" class="status">
+					<p><em></em></p>
+				</blockquote>
+
+				<script src="js/options.js"></script>
+
+		</div>
+	</div>
+</body>
+</html>

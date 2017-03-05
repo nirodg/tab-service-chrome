@@ -1,0 +1,22 @@
+.status{
+    font-weight: 900;
+}
+
+.status-success{
+	color: #489c28;
+	border-left: .3rem solid #489c28;
+}
+
+.status-info{
+	color: #dcc81e;
+	border-left: .3rem solid #dcc81e;
+}
+
+.status-failed{
+	color: #c70000;
+	border-left: .3rem solid #c70000;
+}
+
+.input-info{
+	border: 0.1em solid #dcc81e;
+}
